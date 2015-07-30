@@ -1,0 +1,35 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "This is test application",
+  "main": "js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://xe4me@bitbucket.org/xe4me/react-test.git"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-tools": "*"
+  },
+  "author": "Milad Hosseini",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/xe4me/react-test#readme",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "jest-cli": "^0.4.17",
+    "react-async": "^2.1.0",
+    "react-router-component": "^0.26.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "jsdom": "^5.6.0",
+    "mocha": "^2.2.5",
+    "sinon": "*",
+    "should": "^7.0.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers .:src/js/tests/compiler.js src/js/tests/**/*test.js"
+  }
+}
